@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(libstd)
+project(fcxx)
 include(CTest)
 
 set(CMAKE_CXX_STANDARD 17)
