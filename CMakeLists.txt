@@ -13,3 +13,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 list(APPEND CMAKE_CXX_FLAGS -nostdinc++)
 
 add_subdirectory(src)
+
+if(BUILD_TESTING)
+    add_subdirectory(tests)
+endif()
