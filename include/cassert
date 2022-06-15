@@ -1,0 +1,6 @@
+#ifndef _FCXX_CASSERT
+#define _FCXX_CASSERT
+
+#include <assert.h>
+
+#endif
