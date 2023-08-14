@@ -1,4 +1,4 @@
-add_library(land SHARED
+add_library(land
     algorithm.h
     land.h
     list.h
@@ -8,6 +8,7 @@ add_library(land SHARED
     test_executor.cpp
     test_executor.h
     test.h
+    time_ms.cpp
     time_ms.h
 )
 
@@ -16,7 +17,7 @@ target_include_directories(land
         ${CMAKE_CURRENT_SOURCE_DIR}/../
 )
 
-add_library(land-main SHARED
+add_library(land-main
     land_main.cpp
 )
 
