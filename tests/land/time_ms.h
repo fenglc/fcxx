@@ -7,10 +7,7 @@ namespace land
 
     time_ms get_time_ms();
 
-    inline double diff_time_ms(time_ms end, time_ms begin)
-    {
-        return end - begin;
-    }
+    double diff_time_ms(time_ms end, time_ms begin);
 }
 
 #endif

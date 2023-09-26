@@ -33,3 +33,8 @@ time_ms land::get_time_ms()
     return (tv.tv_sec * 1000) + (tv.tv_usec / 1000);
 #endif
 }
+
+double land::diff_time_ms(time_ms end, time_ms begin)
+{
+    return end - begin;
+}
