@@ -8,7 +8,7 @@
     suite_name##_##case_name##_test
 
 #define __CREATE_TEST(suite_name, case_name) \
-    static land::test_creator<__TEST_CLASS_NAME(suite_name, case_name)> suite_name##_##case_name####_creator
+    static land::test_creator<__TEST_CLASS_NAME(suite_name, case_name)> suite_name##_##case_name##_creator
 
 #define TEST(suite_name, case_name)                                                 \
     class __TEST_CLASS_NAME(suite_name, case_name) : public land::test              \
